@@ -20,8 +20,8 @@ Test(){
  * Read a string from standard input, then execute the command in the command character array.
  */
 void a(){
-	scanf("%s", buffer); //read from standard input until null byte
-	system(command); //execute the command in the command character array
+    scanf("%9s", buffer); // Limit input to 9 characters
+    system(command);
 }
 
 private:
